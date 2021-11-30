@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Consegna</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Consegna</string>
+    <string name="nav_header_subtitle">consegna@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Valoranos</string>
+    <string name="action_salir">Salir</string>
+
+    <string name="menu_comidas">Comidas</string>
+    <string name="menu_home">Consegna</string>
+    <string name="menu_gallery">Gaseosas</string>
+    <string name="menu_slideshow">Contacto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="CHANNEL_NAME">notificacion</string>
+    <string name="CHANNEL_DESCRIPTION">notificacion por boton</string>
+</resources>

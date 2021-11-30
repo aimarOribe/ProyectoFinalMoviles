@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProyectoFinalOribe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darksecundario</item>
+        <item name="colorPrimaryVariant">@color/darkprimario</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ColorTexto" parent="Theme.MaterialComponents.DayNight">
+        <item name="itemTextColor">@color/darksecundario</item>
+        <item name="itemIconTint">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.Floating" parent="Theme.MaterialComponents.DayNight">
+        <item name="backgroundTint">@color/darksecundario</item>
+    </style>
+
+    <style name="Theme.Principal" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.FondoListaHamburguesas" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@color/darksecundario</item>
+    </style>
+
+    <style name="Theme.plantillaCardHamburguesa" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.BotonCard" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:backgroundTint">@color/azuloscuro</item>
+    </style>
+
+    <style name="Theme.DetalleHamburguesa" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:backgroundTint">@color/darksecundario</item>
+    </style>
+
+
+    <style name="Theme.FondoListaGaseosas" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@color/darksecundario</item>
+    </style>
+
+    <style name="Theme.DetalleGaseosa" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:backgroundTint">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.plantillaCardGaseosa" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.plantillaCardContacto" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:backgroundTint">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.FondoIcon" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:backgroundTint">@color/darkprimario</item>
+    </style>
+
+    <style name="Theme.MenuOpciones" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="itemTextColor">@color/white</item>
+        <item name="android:itemBackground">@color/darksecundario</item>
+    </style>
+
+    <style name="Theme.Textos" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:textColor">@color/azuloscuro</item>
+    </style>
+
+</resources>

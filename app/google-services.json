@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881114786881",
+    "project_id": "moviles-cb68c",
+    "storage_bucket": "moviles-cb68c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881114786881:android:a6d19e661b4e900447eac0",
+        "android_client_info": {
+          "package_name": "com.example.proyectofinaloribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881114786881-72hh44t5ob3mmlqc5fvhuttb43gulqgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHoCL_zzYXvVrv7EMex7Y-vmqmobQ5LyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881114786881-72hh44t5ob3mmlqc5fvhuttb43gulqgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

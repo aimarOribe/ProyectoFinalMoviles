@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_500"
+    android:elevation="10dp"
+    app:title="Consegna"
+    app:logo="@drawable/ic_baseline_fastfood_24"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:titleMarginStart="32sp"
+    style="@style/Theme.MenuOpciones"
+    app:popupTheme="@style/Theme.MenuOpciones">
+</androidx.appcompat.widget.Toolbar>

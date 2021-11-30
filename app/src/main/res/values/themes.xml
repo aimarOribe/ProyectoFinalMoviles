@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProyectoFinalOribe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightsecundario</item>
+        <item name="colorPrimaryVariant">@color/lightprimario</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ColorTexto" parent="Theme.MaterialComponents.Light">
+        <item name="itemTextColor">@color/lightsecundario</item>
+        <item name="itemIconTint">@color/lightprimario</item>
+    </style>
+
+    <style name="Theme.Floating" parent="Theme.MaterialComponents.Light">
+        <item name="backgroundTint">@color/lightsecundario</item>
+    </style>
+
+    <style name="Theme.Principal" parent="Theme.MaterialComponents.Light">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.ProyectoFinalOribe.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FondoListaHamburguesas" parent="Theme.MaterialComponents.Light">
+        <item name="android:background">@color/blancooscuro</item>
+    </style>
+
+    <style name="Theme.plantillaCardHamburguesa" parent="Theme.MaterialComponents.Light">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.BotonCard" parent="Theme.MaterialComponents.Light">
+        <item name="android:backgroundTint">@color/lightsecundario</item>
+    </style>
+
+    <style name="Theme.DetalleHamburguesa" parent="Theme.MaterialComponents.Light">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.FondoListaGaseosas" parent="Theme.MaterialComponents.Light">
+        <item name="android:background">@color/blancooscuro</item>
+    </style>
+
+    <style name="Theme.DetalleGaseosa" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="Theme.plantillaCardGaseosa" parent="Theme.MaterialComponents.Light">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.plantillaCardContacto" parent="Theme.MaterialComponents.Light">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="Theme.FondoIcon" parent="Theme.MaterialComponents.Light">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="Theme.MenuOpciones" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="itemTextColor">@color/white</item>
+        <item name="android:itemBackground">@color/lightsecundario</item>
+    </style>
+
+    <style name="Theme.Textos" parent="Theme.MaterialComponents.Light">
+        <item name="android:textColor">@color/lightsecundario</item>
+    </style>
+
+    <style name="Widget.App.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/white</item>
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="Widget.App.SnackbarButton" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="android:textColor">@color/lightsecundario</item>
+    </style>
+
+    <style name="Theme.ProyectoFinalOribe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ProyectoFinalOribe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
