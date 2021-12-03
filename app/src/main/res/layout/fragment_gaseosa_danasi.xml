@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GaseosaDanasiFragment"
+    tools:context=".fragments.GaseosaDanasiFragment"
     style="@style/Theme.FondoListaGaseosas">
 
     <!-- TODO: Update blank fragment layout -->

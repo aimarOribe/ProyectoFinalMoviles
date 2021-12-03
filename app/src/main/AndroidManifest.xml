@@ -13,28 +13,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalOribe"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        android:fullBackupContent="true">
         <activity
-            android:name=".AuthActivity"
+            android:name=".activities.AuthActivity"
             android:exported="false" />
         <activity
-            android:name=".PokemonActivity"
+            android:name=".activities.PokemonActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".PruebaGaseosasActivity"
+            android:name=".activities.PruebaGaseosasActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".ValorarActivity"
+            android:name=".activities.ValorarActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".PruebaContactoActivity"
+            android:name=".activities.PruebaContactoActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".PruebaHomeActivity"
+            android:name=".activities.PruebaHomeActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity

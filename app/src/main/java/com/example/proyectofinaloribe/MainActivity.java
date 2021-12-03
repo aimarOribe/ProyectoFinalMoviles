@@ -1,23 +1,24 @@
 package com.example.proyectofinaloribe;
 
+import com.example.proyectofinaloribe.activities.PokemonActivity;
+import com.example.proyectofinaloribe.activities.PruebaContactoActivity;
+import com.example.proyectofinaloribe.activities.PruebaGaseosasActivity;
+import com.example.proyectofinaloribe.activities.PruebaHomeActivity;
+import com.example.proyectofinaloribe.activities.ValorarActivity;
 import com.example.proyectofinaloribe.databinding.ActivityMainBinding;
 
-import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
-import android.widget.ImageButton;
-import android.widget.Toast;
+
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
-import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
