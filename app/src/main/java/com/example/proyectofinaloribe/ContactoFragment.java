@@ -15,6 +15,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.proyectofinaloribe.R;
+
 import java.util.Date;
 
 

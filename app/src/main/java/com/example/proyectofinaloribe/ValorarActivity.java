@@ -45,7 +45,7 @@ public class ValorarActivity extends AppCompatActivity {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
                 valor = String.valueOf(ratingBar.getRating());
-                ejecutarServicio("http://192.168.1.6:80/laconsegna/insertar_valor.php");
+                ejecutarServicio("http://192.168.1.2:80/laconsegna/insertar_valor.php");
             }
         });
     }

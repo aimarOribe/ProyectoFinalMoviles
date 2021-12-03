@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Contáctanos"
-            android:textColor="#e4163b"
+            style="@style/Theme.Textos"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -44,7 +44,7 @@
                     android:layout_marginRight="10dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_baseline_access_time_24"
-                    app:tint="#e4163b" />
+                    style="@style/Theme.Iconos"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -108,8 +108,7 @@
                     android:layout_marginRight="10dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_baseline_location_on_24"
-                    app:tint="#e4163b"
-                    style="@style/Theme.FondoIcon"/>
+                    style="@style/Theme.Iconos"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -171,8 +170,7 @@
                     android:layout_marginRight="10dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_baseline_local_phone_24"
-                    app:tint="#e4163b"
-                    style="@style/Theme.FondoIcon"/>
+                    style="@style/Theme.Iconos"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -228,8 +226,7 @@
                     android:layout_marginRight="10dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_baseline_email_24"
-                    app:tint="#e4163b"
-                    style="@style/Theme.FondoIcon"/>
+                    style="@style/Theme.Iconos"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -2,7 +2,6 @@ package com.example.proyectofinaloribe;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.os.Bundle;
 
 public class PruebaContactoActivity extends AppCompatActivity {
@@ -18,4 +17,5 @@ public class PruebaContactoActivity extends AppCompatActivity {
         ftc.add(R.id.flayoutcontacto, contactoFragment);
         ftc.commit();
     }
+
 }
