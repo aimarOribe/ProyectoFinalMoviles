@@ -73,4 +73,9 @@
         <item name="android:textColor">@color/azuloscuro</item>
     </style>
 
+    <style name="Theme.Iconos" parent="Theme.MaterialComponents.DayNight">
+        <item name="tint">@color/azuloscuro</item>
+        <item name="android:backgroundTint">@color/darkprimario</item>
+    </style>
+
 </resources>

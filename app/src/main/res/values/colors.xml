@@ -19,4 +19,6 @@
 
     <color name="blancooscuro">#EDE7E7</color>
     <color name="azuloscuro">#1292EE</color>
+
+    <color name="rojo">#E61717</color>
 </resources>
